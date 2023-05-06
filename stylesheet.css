@@ -1,0 +1,25 @@
+h1 {
+  font-size: 2.5em;
+  color: #ff5a77;
+  padding: 2%;
+  margin: 2px;
+  text-align: center;
+}
+
+.description {
+  font-size: 1em;
+  color: #53000E;
+  padding: 2px;
+  text-align: left;
+  font-weight: bold;
+}
+
+.name, .email {
+  font-size: 1.2em
+}
+
+.form, .recommend {
+  font-family: sans;
+  font-size: 0.9em;
+  padding: 2px
+}
