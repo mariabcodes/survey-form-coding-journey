@@ -1,0 +1,108 @@
+** start of undefined **
+
+<!Doctype html>
+<html lang="en">
+<link ref="stylesheet" href="styles.css">
+<meta content="device-width" flex-wrap>
+
+<body>
+  <h1 id="title">Coding Journey Survey</h1>
+  <p id="description">Welcome! Thank you for taking the time to help understand how you are learning to code.</p>
+
+  <div class="form">
+
+  <form id="survey-form" input="required">
+
+    <div class="name">
+    <label for="name" id="name-label">Name</label>
+    <input id="name" type="text" label="name" placeholder="Name" required></input>
+    </div>
+
+    <div class="email">
+    <label for="email" id="email-label">Email</label>
+    <input id="email" type="email" label="email" placeholder="Email address" required></input>
+    </div>
+
+    <div class="age">
+    <label for="age" id="number-label">Age (optional)</label>
+    <input id="number" label="number" placeholder="Age" type="number" min="10" max="120"></input>
+    </div>
+
+    <div class="current-job">
+    <p id="currentjob">Which option best describes your current role?</p>
+    <select id="dropdown" required>
+    <option>Select</option>
+    <option>Student</option>
+    <option>Full time job</option>
+    <option>Full time learner</option>
+    <option>Prefer not to say</option>
+    <option>Other</option></select>
+    </div>
+
+    <div class="environment" required>
+    <p id="environment">What is your favourite learning environment?</p>
+    <input type="radio" id="library" name="environment" value="Library">
+    <label for="library">Library</label><br>
+    <input type="radio" id="college" name="environment" value="At college/university/learning institution">
+    <label for="college">At college/university/learning institution</label><br>
+    <input type="radio" id="coffee-shop" name="environment" value="In a coffee shop">
+    <label for="coffee-shop">In a coffee shop</label><br>
+    <input type="radio" id="outdoors" name="environment" value="Outdoors">
+    <label for="outdoors">Outdoors</label><br>
+    <input type="radio" id="bookshop" name="environment" value="In a bookshop">
+    <label for="bookshop">In a bookshop</label><br>
+    <input type="radio" id="other" name="environment" value="Other">
+    <label for="other">Other</option></br>
+    
+    <div class="waystostudy" required>
+      <p id="waystostudy">What are the ways that you study?</p>
+      <input type="checkbox" id="waystostudy" name="study" value="coursera">Coursera</input><br>
+      <input type="checkbox" id="waystostudy" name="study" value="freecodecamp">FreeCodeCamp</input><br>
+      <input type="checkbox" id="waystostudy" name="study" value="university-course">University Course</input><br>
+      <input type="checkbox" id="waystostudy" name="study" value="challenges">Online Coding Challenges/Hackathons</input><br>
+      <input type="checkbox" id="waystostudy" name="study" value="youtube">Youtube Tutorials</input><br>
+      <input type="checkbox" id="waystostudy" name="study" value="coding-communities-and-forums">Through coding forums and communities</input><br>
+      <input type="checkbox" id="waystostudy" name="study" value="other">Other</input><br>
+
+    <div class="comments">
+    <label for="comments" id="comments">Any comments or suggestions?</label><br>
+    <textarea id="comments" name="comments" rows="8" cols="35" placeholder="Enter any thoughts here..."></textarea>
+    </div>
+
+    <input type="submit" value="Submit" id="submit">
+    </form>
+    </div>
+
+** end of undefined **
+
+** start of undefined **
+
+h1 {
+  font-size: 2.5em;
+  color: #ff5a77;
+  padding: 2%;
+  margin: 2px;
+  text-align: center;
+}
+
+.description {
+  font-size: 1em;
+  color: #53000E;
+  padding: 2px;
+  text-align: left;
+  font-weight: bold;
+}
+
+.name, .email {
+  font-size: 1.2em
+}
+
+.form, .recommend {
+  font-family: sans;
+  font-size: 0.9em;
+  padding: 2px
+}
+
+
+** end of undefined **
+
